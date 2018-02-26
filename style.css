@@ -1,0 +1,50 @@
+
+body{
+   background-image: url(black_thread.png);
+    margin:0;
+    padding: 0;
+}
+.col-md-12{
+    
+   margin-left: 365px;
+    position: relative;
+   width: 200px;
+
+   
+
+}
+.tit{
+    color: white;
+}
+.ur{
+    color: white;
+    margin-left: 400px;
+}
+.col-md-3{
+    background-color: white;
+    margin: 5px;
+    display: inline-block;
+    max-width: 250px;
+   height: 150px;
+   font-size: 30px;
+   text-align: center;
+   background-color: lightgreen;
+   border-radius: 20px;
+   opacity: 0.5;
+   cursor: pointer;
+   text-decoration: underline;
+}
+.opp{
+color: white;
+margin-left: 380px;
+
+
+}
+.opponents{
+
+height: 300px;
+
+}
+.defender{
+    height: 300px;
+}

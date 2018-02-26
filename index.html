@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Star Wars RPG Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div id="title" class="col-md-12">
+                <h1>
+                    <img src="https://vignette.wikia.nocookie.net/disney/images/8/8e/Star_Wars_The_Force_Awakens_Transparent_Logo.png/revision/latest?cb=20150511044642"
+                        height="100" ; width="300" ;>
+                </h1>
+            </div>
+        </div>
+        <!-- Your character -->
+        <div class="row">
+            <h1 class="ur">Opponents To Fight</h1>
+            <div  class=" yoda col-md-3">
+                Yoda
+            </div>
+            <div id="yoda" class=" yoda col-md-3">
+                Luke SkyWalker
+            </div>
+            <div id="yoda" class=" yoda col-md-3">
+                Darth Vader
+            </div>
+            <div id="yoda" class=" yoda col-md-3">
+                Darth Maul
+            </div>
+        </div>
+        <!-- Characters to fight -->
+
+        <div class="row">
+            <div class="opponents">
+                <h1 class="opp"> Your Character</h1>
+
+
+
+
+            </div>
+          </div>
+          <div class="row">
+         <div class="defender">
+             <h1 class="opp"> Defender</h1>
+         </div>
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+
+    <script type="text/javascript">
+
+$(function(){
+
+    $( ".yoda" ).click(function() {
+    $(".yoda").appendTo ($(".opponents"));
+});
+});
+
+      
+</script>
+
+</body>
+
+</html>
