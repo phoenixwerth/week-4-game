@@ -1,0 +1,53 @@
+
+
+
+
+.wrapper{
+max-width: 1000px;
+margin: auto;
+border: gray 2px solid;
+text-align: center;
+font-family: fantasy;
+border-radius: 15px;
+background-color: rgba(124, 124, 124, 0.3);
+-webkit-box-shadow: -30px 0 30px -30px darkgray;
+          box-shadow: 30px 0 30px -5px darkgray;
+}
+
+p{
+    color: red;
+   text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.game{
+    max-width: 1000px;
+margin: auto;
+border: gray 2px solid;
+text-align: center;
+border-radius: 15px;
+background-color: rgba(124, 124, 124, 0.3);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+box-shadow: 30px 30px 30px darkgray;
+}
+.diamond{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
